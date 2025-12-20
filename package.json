@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "npm --prefix goit-react-hw-01 run dev",
+    "build": "npm --prefix goit-react-hw-01 run build",
+    "preview": "npm --prefix goit-react-hw-01 run preview",
+    "postinstall": "npm --prefix goit-react-hw-01 install"
+  },
   "devDependencies": {
     "prop-types": "^15.8.1"
   },
